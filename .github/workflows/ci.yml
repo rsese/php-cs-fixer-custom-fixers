@@ -39,7 +39,7 @@ jobs:
           - os: windows-latest
             php-version: '7.2'
           - os: windows-latest
-            php-version: '7.2'
+            php-version: '7.3'
     runs-on: ${{ matrix.os }}
     steps:
       - name: Checkout
