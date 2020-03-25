@@ -57,7 +57,7 @@ jobs:
           key: ${{ runner.os }}-${{ hashFiles('**/composer.json') }}
           restore-keys: ${{ runner.os }}-
 
-      - name: Install dependencies
+      - name: Install dependencies 
         run: composer update --no-progress --no-suggest ${{ matrix.composer_flags }}
 
       - name: Test
